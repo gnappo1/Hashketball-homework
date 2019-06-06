@@ -151,7 +151,7 @@ end
 # Methods Required - I will use [] notation over fetch
 
     def num_points_scored(player_name)
-        merged_players[player_name][:points]  #too lazy to break into two lines 😜
+        merged_players[player_name][:points]
     end
 
     def shoe_size(player_name)
